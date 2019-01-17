@@ -48,8 +48,8 @@ Configuration Main
 			SetScript =
 			{
 				$NatSwitch = Get-NetAdapter -Name "vEthernet (NAT Switch)"
-				New-NetIPAddress -IPAddress 192.168.0.1 -PrefixLength 24 -InterfaceIndex $NatSwitch.ifIndex
-				New-NetNat -Name NestedVMNATnetwork -InternalIPInterfaceAddressPrefix 192.168.0.0/24 -Verbose
+				New-NetIPAddress -IPAddress 10.0.0.1 -PrefixLength 24 -InterfaceIndex $NatSwitch.ifIndex
+				New-NetNat -Name NestedVMNATnetwork -InternalIPInterfaceAddressPrefix 10.0.0.0/24 -Verbose
 #				$zipDownload = "http://YOUR-URL-HERE/FILENAME.ZIP"
 #				$downloadedFile = "D:\FILENAME.zip"
 #				$vmFolder = "C:\VM"

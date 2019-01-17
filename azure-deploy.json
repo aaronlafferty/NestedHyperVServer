@@ -50,7 +50,6 @@
       "location": "[resourceGroup().location]",
       "apiVersion": "2017-10-01",
       "dependsOn": [
-        "[resourceId('Microsoft.Network/virtualNetworks', 'STRGVNET')]",
         "[resourceId('Microsoft.Network/publicIPAddresses', variables('HyperVHost-PUBIPName'))]"
       ],
       "tags": {
