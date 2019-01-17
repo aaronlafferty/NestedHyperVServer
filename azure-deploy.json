@@ -17,7 +17,6 @@
     "HyperVHostWindowsOSVersion": "2016-Datacenter",
     "HyperVHostOSDiskName": "[concat(variables('HyperVHostName'), '-OSDISK')]",
     "HyperVHostVmSize": "Standard_D2s_v3",
-    "HyperVHostVnetID": "[resourceId('Microsoft.Network/virtualNetworks', 'STRGVNET')]",
     "HyperVHostNicName": "[concat(variables('HyperVHostName'), '-NIC')]",
     "HyperVHost-PUBIPName": "[concat(variables('HyperVHostName'), '-PIP')]",
     "HyperVHostConfigArchiveFolder": ".",
