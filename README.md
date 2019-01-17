@@ -7,6 +7,6 @@ Create a Nested HyperV Host in Azure with one click
 
 Find more information on how to use this deployment <a href=https://buildazure.com/2018/04/10/nested-vms-in-azure-with-one-click-you-must-be-crazy>here</a>.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdeltadan%2Fazurenestedhyperv%2Fmaster%2Fazure-deploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Faaronlafferty%2FNestedHyperVServer%2Fmaster%2Fazure-deploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
