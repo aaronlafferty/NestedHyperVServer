@@ -10,8 +10,8 @@
   },
   "variables": {
     "HyperVHostName": "HYPERVHOST",
-    "HyperVHostAdminUserName": "stormtrooperio",
-    "HyperVHostAdminPassword": "Password.1!!",
+    "HyperVHostAdminUserName": "localadmin",
+    "HyperVHostAdminPassword": "Password20!9!",
     "HyperVHostImagePublisher": "MicrosoftWindowsServer",
     "HyperVHostImageOffer": "WindowsServer",
     "HyperVHostWindowsOSVersion": "2016-Datacenter",
@@ -24,7 +24,7 @@
     "HyperVHostConfigURL": "https://github.com/aaronlafferty/NestedHyperVServer/blob/master/customscripts/HyperVHostConfig.zip?raw=true",
     "HyperVHostInstallHyperVScriptFolder": ".",
     "HyperVHostInstallHyperVScriptFileName": "InstallHyperV.ps1",
-    "HyperVHostInstallHyperVURL": "https://github.com/aaronlafferty/NestedHyperVServer/blob/master/customscripts/InstallHyperV.ps1"
+    "HyperVHostInstallHyperVURL": "https://raw.githubusercontent.com/aaronlafferty/NestedHyperVServer/master/customscripts/InstallHyperV.ps1"
 
   },
   "resources": [
